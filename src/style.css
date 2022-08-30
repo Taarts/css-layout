@@ -26,4 +26,30 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+
+  /* layout for photo gallery & mobile device */
+  display: flex;
+  flex-wrap: wrap;
+}
+/* order = zero until you give them another value */
+/* li {
+  flex: 1;
+}
+li.C {
+  flex: 2;
+} */
+main {
+  display: flex;
+}
+
+main div {
+  flex: 1;
+}
+
+main .important {
+  flex: 1;
+}
+
+img {
+  vertical-align: bottom;
 }
